@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/90b718c0f5.js" crossorigin="anonymous"></script>
+    <title>Profile</title>
+    <style>
+        * {
+            padding: 0; 
+            margin: 0; 
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .navigation-t, .navigation-b {
+            height: 5vh;
+            
+            background-color: black;
+            font-size: large;
+            display: flex;
+        }
+        h2 {
+            color: black;
+        }
+        a {
+            text-decoration: none;
+            color: lightskyblue;
+            padding: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+        header {
+            height: 10vh;
+            font-size: x-large;
+            background-color: lightskyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main {
+            padding-top: 10px;
+            height: auto;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .box1 {
+            border-radius: 50%;
+            padding: 20px ;
+        }
+        .box1 img {
+            height: 200px;
+            border-radius: 50%;
+        }
+        h3 {
+            padding: 10px;
+        }
+        .box2 {
+            padding-right: 50px;
+            padding-top: 5px;
+        }
+        .box2 i {
+            font-size: 20px;
+            padding: 10px;
+        }
+        .box3 {
+            padding: 10px;
+        }
+        .box3 img {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation-t">
+        <a href="./index.html">Homepage</a>
+        <a href="./profile.html">Profile</a>
+        <a href="./friends.html">Friends</a>
+    </div>
+    <header>
+        <h2>Profile</h2>
+    </header>
+    <main>
+        <div class="box1">
+            <img src="./picture/profilePic.jpg" alt="myProfilePicture" />
+        </div>
+        <h3>ณัฐพงษ์ ทองพึง (เดียร์)</h3>
+        <div class="box2">
+            <p><i class="fas fa-users"></i> <span>Codecamp 13</span></p>
+            <p><i class="fas fa-home" ></i> <span>กรุงเทพฯ</span></p>
+            <p><i class="far fa-calendar-plus"></i> <span>ดูแลสัตว์เลี้ยง</span></p>
+        </div>
+        <div class="box3">
+            <img src="./picture/pet1.jpg" alt="myPet1">
+            <img src="./picture/pet2.jpg" alt="myPet2">
+            <img src="./picture/pet3.jpg" alt="myPet3">
+        </div>
+    </main>
+    <div class="navigation-b">
+        <a href="./index.html">Homepage</a>
+        <a href="./profile.html">Profile</a>
+        <a href="./friends.html">Friends</a>
+    </div>
+</body>
+</html>
